@@ -1,0 +1,50 @@
+body {
+    color:rgb(56, 2, 67);   
+    background:rgb(137, 28, 164);
+    margin: 0px;
+    font-family: "Caveat", serif;
+
+}
+
+header {
+    border-bottom: solid 2px rgb(172, 107, 190);
+    padding: 20px;
+    font-size: 25px;
+    color: rgb(181, 155, 187);
+}
+
+
+.chamada{
+    background: rgb(135, 86, 160);
+    padding-bottom: 40px;
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+p {
+    font-size: 20px;
+}
+
+img{
+    height: 250px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+}
+
+.categoria{
+    padding-left: 20px;
+    padding-right: 20px;
+}
